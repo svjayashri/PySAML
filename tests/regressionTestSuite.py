@@ -15,7 +15,7 @@ class subjectTests(unittest.TestCase):
 
     self.assertEqual(subject.name,"JohnDoe@example.com")
     self.assertEqual(subject.nameidformat,"urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress")
-    print 'Hello World'
+    print 'Hello World 1'
     
   # Should still be able to set the nameid-format even if it is not a standard format
   def testAcceptsAnyNameIDFormat(self):
